@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Hello from "./Components/Hello";
 
-function App() {
+const App = ()  =>{
+//  const now = new Date();
+//  const a =  20;
+//  const b= 30;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hello/>
+      {/* <p>Hello world, it is {now.toString()}</p>
+      <p>{a} plus {b} is {a+b}</p>
+      <h1>Hello</h1> */}
     </div>
   );
 }
