@@ -6,7 +6,7 @@ const App = ()  =>{
 //  const b= 30;
   return (
     <div className="App">
-      <Hello/>
+      <Hello name="Tomike, this is your first tasking using props"/>
       {/* <p>Hello world, it is {now.toString()}</p>
       <p>{a} plus {b} is {a+b}</p>
       <h1>Hello</h1> */}
